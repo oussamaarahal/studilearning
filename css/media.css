@@ -1,0 +1,282 @@
+@media (max-width: 767px) {
+  .heading {
+    height: 60px;
+    padding: 0 10px;
+  }
+
+  .brand-site .column {
+    display: none;
+  }
+
+  .subscription .subsc {
+    column-gap: 0px;
+  }
+
+  .brand-site .links {
+    display: none;
+  }
+
+  .subscription .subsc a .auth-button {
+    display: block;
+  }
+
+  .subscription .subsc a .login-button,
+  .subscription .subsc a .register-button {
+    display: none;
+  }
+
+
+  .heading .brand-site img {
+    width: 100px;
+  }
+
+
+  .first-page .welcome-page {
+    width: 345px;
+    /* height: 957px; */
+    margin: 20px;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .welcome-page .information-page {
+    width: 100%;
+  }
+
+  .first-page .picture-welcome {
+    padding-top: 40px;
+  }
+
+  .first-page .picture-welcome img {
+    width: 310px;
+  }
+
+  .information-page .heading-welcome h1 {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .first-page .details {
+    width: 100%;
+  }
+
+  .details .detail {
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+
+  .container .second-page {
+    /* height: 1225px; */
+    padding: 20px 0;
+  }
+
+  .subjects .subject {
+    margin: 10px;
+  }
+
+  /* .second-page .subjects {
+    width: 100%;
+    justify-content: center;
+  } */
+
+  .subjects .last {
+    margin: 10px 27px;
+  }
+
+  .second-page .title-subject h2 {
+    text-align: center;
+  }
+
+  .title-cities h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .third-page .container-city {
+    padding: 0;
+  }
+
+  .container-city .card-city {
+    margin-bottom: 20px;
+  }
+
+  .fourth-page .container-profs {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .fourth-page .title-profs h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(4, 17, 29);
+  }
+
+  /* .fourth-page .title-profs {
+    width: 98%;
+  } */
+
+  .fourth-page .title-profs h1 {
+    font-size: 38px;
+  }
+
+  .container-items .items {
+    width: 100%;
+  }
+
+  /* .items .item {
+    margin: 50px;
+  } */
+
+  .item .item-detail {
+    width: 200px;
+  }
+
+  .fifth-title h2 {
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .stay__at__loop {
+    width: 100%;
+  }
+
+  .stay__at__loop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .stay__at__loop .desc__loop {
+    display: flex;
+    align-items: center;
+  }
+
+  .stay__at__loop .desc__loop span {
+    text-align: center;
+  }
+
+  .contact__us__loop {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .contact__us__loop .input__email input {
+    width: 340px;
+  }
+
+  .contact__us__loop .sign__up__btn {
+    padding-right: 0;
+  }
+
+  footer .social__media {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1217px) and (min-width: 767px) {
+  .first-page .welcome-page {
+    width: 100%;
+    /* height: 800px; */
+    margin: 40px 0;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+  }
+
+  .welcome-page .picture-welcome img {
+    width: 400px;
+  }
+
+  .information-page .heading-welcome h1 {
+    text-align: center;
+  }
+
+  .welcome-page .information-page {
+    margin-top: 50px;
+  }
+
+
+  .first-page .details {
+    width: 100%;
+  }
+
+
+
+  .subjects .subject {
+    /* width: 300px; */
+    margin: 10px;
+  }
+
+
+  .subjects .last {
+    margin: 10px 27px;
+  }
+
+  .second-page .title-subject h2 {
+    text-align: center;
+  }
+
+  .third-page .container-city {
+    padding: 0;
+  }
+
+  .title-cities h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .container-city .card-city {
+    margin: 20px 10px;
+  }
+
+  .fourth-page .container-profs {
+    padding: 0;
+    justify-content: center;
+  }
+
+  .items .item {
+    margin: 50px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .stay__at__loop {
+    width: 100%;
+  }
+
+  .stay__at__loop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .stay__at__loop .desc__loop {
+    display: flex;
+    align-items: center;
+  }
+
+  .stay__at__loop .desc__loop span {
+    text-align: center;
+  }
+
+  .contact__us__loop {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+
+  .contact__us__loop .sign__up__btn {
+    padding-right: 0;
+  }
+
+  footer .social__media {
+    align-items: center;
+  }
+}
